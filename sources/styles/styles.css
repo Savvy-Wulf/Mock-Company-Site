@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #242524;
+    margin-top: 80px;
+}
+
 /* Nav Bar styles */
 nav {
     position: fixed;
@@ -48,6 +53,28 @@ ul li a:hover {
 }
 
 /* home styles */
+#aBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./media/about-bg.jpg");
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: auto auto;
+}
+
+#aContent {
+    text-align: center;
+    width: 600px;
+    line-height: 110px;
+    background: rgba(36, 37, 36, .7);
+    color: white;
+    font-size: 30px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
 
 /* about styles */
 
@@ -64,5 +91,4 @@ footer {
 
 footer h2 {
     text-align: center;
-    margin-top: 2px;
 }
