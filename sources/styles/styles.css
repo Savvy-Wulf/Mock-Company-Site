@@ -52,7 +52,7 @@ ul li a:hover {
     background: #738678;
 }
 
-/* home styles */
+/* about styles */
 #aBox {
     display: flex;
     align-items: center;
@@ -60,11 +60,11 @@ ul li a:hover {
     background-image: url("./media/about-bg.jpg");
     background-position: center;
     height: 700px;
-    width: 1200px;
+    width: 1400px;
     margin: auto auto;
 }
 
-#aContent {
+.aContent {
     text-align: center;
     width: 600px;
     line-height: 110px;
@@ -75,9 +75,39 @@ ul li a:hover {
     border-radius: 20px;
 }
 
+#main {
+    height: 800px;
+    width: 1400px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* about styles */
+#mBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.mTitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+.mContent img {
+    max-height: 400px;
+    max-width: 400px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.mContent {
+    display: inline-flex;
+    flex-direction: column;
+}
 /* contact styles */
 
 /* footer styles */
