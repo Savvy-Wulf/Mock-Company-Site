@@ -75,12 +75,15 @@ ul li a:hover {
     border-radius: 20px;
 }
 
+/* main styles */
 #main {
     height: 800px;
     width: 1400px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #mBox {
@@ -93,8 +96,8 @@ ul li a:hover {
 }
 
 .mTitle {
-    text-align: center;
     font-size: 50px;
+    color: white;
 }
 
 .mContent img {
@@ -107,7 +110,15 @@ ul li a:hover {
 .mContent {
     display: inline-flex;
     flex-direction: column;
+    font-size: 30px;
+    color: white;
 }
+
+.mContent p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* contact styles */
 
 /* footer styles */
